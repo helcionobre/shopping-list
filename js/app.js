@@ -12,11 +12,14 @@ $(document).ready(function() {
 			alert ('Please enter text');
 		} else {
 			$(".itemlist").append('<li class="item"><div class="checkbox"><i class="fa fa-square-o"></i></div>' + $('input#myText').val() + '<i class="fa fa-trash"></i></li>');
+			$('input#myText').val(""); //make sure box is clean after new addition 
 		};
 		
 	});
-	
+
 // delete items
-	
+	$('.itemlist').on('click', '.fa-trash', function() {
+		$(this).closest(".item").remove();
+	});
 
 });
