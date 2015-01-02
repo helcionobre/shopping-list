@@ -1,0 +1,72 @@
+div {
+	border: 1px solid Chocolate;
+
+}
+body {
+	background-color: lightyellow;
+
+/*	background-image: url('../images/notebookyellow.jpeg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem; 
+	overflow: auto; */
+}
+
+.bigbox {
+	background-color: yellowgreen;
+	margin: 0 auto;
+	width: 40%;
+	padding: 0 40px;
+}
+
+.addbutton {
+	background-color: green;
+	color: white;
+	border-radius: 20px;
+}
+
+.addbutton:hover {
+	cursor: pointer;
+	background-color: darkgreen;
+}
+
+.itemlist {
+	margin-top: 0;
+	padding: 20px 5px 5px 0px;
+	text-align: left;
+	list-style: none;
+}
+
+.itemlist li {
+	height: 30px;
+}
+
+.checkbox {
+	float: left;
+	margin-top: 3px;
+	margin-right: 30px;
+	height: 17px;
+	width: 17px;
+
+}
+
+.box-unchecked {
+	display: inline-block;
+}
+.box-checked {
+	display: none;
+}
+
+.fa-trash {
+	float: right;
+}
+
+.fa:hover {
+	cursor: pointer;
+	color: red;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
